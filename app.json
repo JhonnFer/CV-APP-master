@@ -10,7 +10,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#3498db"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.juankgonzalez.cvcreator",
@@ -39,6 +41,11 @@
           "photosPermission": "La app necesita acceso a tus fotos para seleccionar tu foto de perfil."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ef108052-1195-494f-a119-4453f6d06372"
+      }
+    }
   }
 }
